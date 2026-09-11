@@ -1,0 +1,12 @@
+{
+  "D": "2026-05-31",
+  "base_rate_labelable": 0.6545,
+  "median_imp_ratio": 0.965,
+  "share_prob_gt_08": 0.2271,
+  "held_out_tree_P100": 0.98,
+  "held_out_rule2_P100": 0.89,
+  "held_out_base_rate": 0.641,
+  "recovery_rate_prob_gt_08": 0.191,
+  "n_labelable": 100785,
+  "n_clients_labelable": 41
+}

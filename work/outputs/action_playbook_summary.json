@@ -1,0 +1,9 @@
+{
+  "decision_point_D": "2026-05-31",
+  "label": "declined_30d_future = (future_imp < 0.8 * prior_imp), labelable: prior_imp>=100 & prior_obs>=7 & future_obs>=7",
+  "coverage": "100,785 labelable of 333,275 window rows across 41 clients; base rate 0.655",
+  "model": "decision tree max_depth=4, min_samples_leaf=100, random_state=42; 25 features (17 numeric incl imp_ratio/pos_delta + 8 one-hot); Rule-2 loss tie-break only",
+  "held_out_grouped_12_clients": "tree P@10 1.00, P@20 1.00, P@50 0.98, P@100 0.98 vs Rule2 0.80/0.85/0.86/0.89, base 0.641; 5-seed tree P@50 0.972+-0.016, P@100 0.980+-0.006",
+  "honest_claim": "observed May->June on one snapshot: the model ranks/flags declining pages at P@100 ~0.98 on held-out clients; ~1-in-5 confident picks recover without action; head P@10-20 is seed-sensitive so the reliable claim is P@50/P@100; review-first candidates, not causal refresh effects",
+  "queue_file": "action_playbook_queue.csv (top 500 of 100,785, columns: rank, client/content hashes, prob_decline, rule2_loss, imp_ratio, pos_delta, prior_imp, ages, reason_codes, action)"
+}
