@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="480.0" y="34" text-anchor="middle" font-family="Arial" font-size="24" fill="#16232a">P@100: tree vs baseline vs base rate (grouped held-out, n=12 clients)</text>
+<text x="178" y="130.1" text-anchor="end" font-family="Arial" font-size="13" fill="#27343b">tree d=4</text>
+<rect x="190" y="70.0" width="715.4" height="92.5" fill="#6F4E7C" rx="4"/>
+<text x="913.4" y="130.1" font-family="Arial" font-size="13" fill="#27343b">0.98</text>
+<text x="178" y="232.6" text-anchor="end" font-family="Arial" font-size="13" fill="#27343b">Rule 2</text>
+<rect x="190" y="172.5" width="649.7" height="92.5" fill="#6F4E7C" rx="4"/>
+<text x="847.7" y="232.6" font-family="Arial" font-size="13" fill="#27343b">0.89</text>
+<text x="178" y="335.1" text-anchor="end" font-family="Arial" font-size="13" fill="#27343b">logistic</text>
+<rect x="190" y="275.0" width="576.7" height="92.5" fill="#6F4E7C" rx="4"/>
+<text x="774.7" y="335.1" font-family="Arial" font-size="13" fill="#27343b">0.79</text>
+<text x="178" y="437.6" text-anchor="end" font-family="Arial" font-size="13" fill="#27343b">base rate</text>
+<rect x="190" y="377.5" width="467.9" height="92.5" fill="#6F4E7C" rx="4"/>
+<text x="665.9" y="437.6" font-family="Arial" font-size="13" fill="#27343b">0.641</text>
+</svg>
